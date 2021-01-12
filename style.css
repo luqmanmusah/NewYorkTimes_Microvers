@@ -1,8 +1,19 @@
+header {
+    position: relative;
+}
 .navbar {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: blanchedalmond;
+}
+img {
+
+    top: 50%;
+    width: 50%;
+    max-width: 50%;
+    size: 50;
 }
 .img-logo {
     height: 20%;
@@ -13,4 +24,10 @@
 .subs-button {
     float: right;
     position: absolute;
+}
+p {
+    position: center;
+}
+.all-text {
+    position: center;
 }
