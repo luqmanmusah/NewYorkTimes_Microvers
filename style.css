@@ -96,19 +96,7 @@ img {
     line-height: 2;
 }
 
-/* .space {
-  width: 1170px;
-  display: block;
-  border-top: 1px solid darkgrey;
-  border-bottom: 1px solid darkgrey;
-  height: 70px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-  align-content: center;
-  justify-content: center;
-} */
+
 p {
   position: center;
 }
