@@ -41,13 +41,13 @@ GitHub: https://github.com/luqmanmusah
 Twitter: @luqboi
 LinkedIn:linkedin.com/luqmanmusah
 
-# handshake Contributing Contributions, issues and feature requests are welcome!
+#  Contributing Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 
 Show your support Give a star if you like this project!
 
-# memo License This project is a collaboration project of microverse students. All rights are reserved for Lilian Francis and Luqman Musah.
+# License This project is a collaboration project of microverse students. All rights are reserved for Lilian Francis and Luqman Musah.
 
 ### Realeases
 No Releases Published
