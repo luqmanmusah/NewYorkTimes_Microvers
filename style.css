@@ -4,6 +4,7 @@
     padding-left: 25px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
   }
   
 
@@ -11,9 +12,14 @@
   position: relative;
 }
 .navbar {
-  background-color: white;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-
+body {
+    padding: 65px;
+}
 .img-menu {
     height: 30px;
     width: 30px;
@@ -32,8 +38,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 20%;
-  width: 10%;
+  height: 40%;
+  width: 30%;
   position: center;
 }
 .sub-buttons {
