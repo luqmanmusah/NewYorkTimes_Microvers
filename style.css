@@ -8,6 +8,12 @@
 }
 body {
   padding: 65px;
+  
+}
+
+header{
+  position: relative;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .navbar {
@@ -20,11 +26,36 @@ body {
   justify-content: space-evenly;
   margin-bottom: 0px;
   padding-bottom: o;
+  border-bottom: 1px solid #cccbcb;
 }
 .main_menu {
-  position: static;
-  justify-content: space-evenly;
-  
+  position: absolute;
+  justify-content: space-around;
+  display: flex;
+  left: 10px;
+  margin-top: 20px;
+}
+
+.main_menu2 {
+  display: block;
+  position: absolute;
+  left: 105px;
+  line-height: 19px;
+  top: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.main_menu2 a {
+  font-size: 14.25px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-letter-spacing: 0.7px;
+    -moz-letter-spacing: 0.7px;
+    -ms-letter-spacing: 0.7px;
+    letter-spacing: 0.7px;
+    line-height: 19px;
 }
 
 .img-menu {
@@ -55,26 +86,28 @@ img {
   width: 100%;
   size: 50;
 }
+
+.logo{
+  position: absolute;
+ 
+ 
+  margin-top: 20px;
+}
 .img-logo {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 40px;
-  width: 30%;
-  margin-top: 30px;
-  position: center;
+  display: block;
+  width: 25%;
   text-size-adjust: 100%;
   /* position: flex;
   justify-content: space-evenly; */
 }
 .sub-buttons {
   display: flex;
-  justify-content: space-evenly;
-  width: 25rem;
-  float: right;
-  /* flex: 1 1 15; */
-  align-content: right;
-  position: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 10px;
+  top: 4px;
   
 }
 .title_style {
@@ -111,6 +144,41 @@ p {
   grid-template-columns: auto auto auto auto;
   padding: 10px;
 }
+.grid-container1{
+  width: 70%;
+}
+
+.aside{
+  position: absolute;
+  max-width: 25%;
+  right: 0;
+  margin: 20px;
+  top: 0;
+  margin-left: 30px;
+}
+
+.link-to{
+  text-decoration: none;
+}
+
+.btn-subscription{
+  border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.6s ease 0s;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 15px;
+    padding: 11px 12px 8px;
+    text-transform: uppercase;
+}
+
 .grid-container2 {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -119,18 +187,27 @@ p {
   grid-template-columns: 30% 30% 30%;
 
 }
+figcaption {
+  font-size: 12px;
+  color: #525555f5;
+}
 
 .grid-container3 {
-  display: grid;
-  grid-template-columns: 75% 25%; 
-  
+  /* display: grid;
+  grid-template-columns: 75% 25%;  */
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 50px;
 } 
-.grid-important {
-  max-width: 25%;
-}
+
 .grid-item {
   padding: 20px;
   text-align: left;
+}
+
+.grid-item2{
+  margin: 10px;
 }
 
 .grid-item img {
