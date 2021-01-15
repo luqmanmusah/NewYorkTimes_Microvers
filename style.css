@@ -16,7 +16,7 @@ body {
   top: 0;
   width: 100%;
   left: 0;
-  position: flex;
+  display: flex;
   justify-content: space-evenly;
   margin-bottom: 0px;
   padding-bottom: o;
@@ -24,6 +24,7 @@ body {
 .main_menu {
   position: static;
   justify-content: space-evenly;
+  
 }
 
 .img-menu {
@@ -31,15 +32,15 @@ body {
   width: 30px;
   float: left;
   margin-left: 30px;
-  /* position: flex;
-  justify-content: space-evenly; */
+  position: flex;
+  justify-content: space-evenly;
 }
 .img-search {
   height: 30px;
   width: 30px;
   margin-left: 20px;
-  /* position: flex;
-  justify-content: space-evenly; */
+  position: flex;
+  justify-content: space-evenly;
 }
 .section-title {
     display: block;
@@ -58,7 +59,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 40p;
+  height: 40px;
   width: 30%;
   margin-top: 30px;
   position: center;
@@ -69,16 +70,22 @@ img {
 .sub-buttons {
   display: flex;
   justify-content: space-evenly;
-  width: 15rem;
+  width: 25rem;
   float: right;
-  flex: 1 1 15;
-  color: darkgrey;
+  /* flex: 1 1 15; */
   align-content: right;
   position: flex;
+  
 }
 .title_style {
-  font-family: georgia,'times new roman',times,serif;
-  font-weight: 700;
+    width: 100%;
+    margin: auto;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    max-width: 700px;
   
 }
 
@@ -88,6 +95,9 @@ img {
   bottom: 0;
   margin: 0 auto;
   line-height: 2;
+}
+.all-buttons {
+  background-color: blue;
 }
 
 p {
@@ -105,9 +115,18 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  max-width: 100%;
+  grid-template-columns: 30% 30% 30%;
+
 }
+
 .grid-container3 {
-  grid: 75% 25%;
+  display: grid;
+  grid-template-columns: 75% 25%; 
+  
+} 
+.grid-important {
+  max-width: 25%;
 }
 .grid-item {
   padding: 20px;
@@ -154,9 +173,9 @@ footer {
 }
 
 .footer-content {
-  display: flex;
-  justify-content: space-between;
-  line-height: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  padding-right: 10px;
 }
 
 .footer-links {
@@ -311,13 +330,17 @@ footer {
 
 /* .logo {
   width: 200px; */
-
+  .logos {
+    width: 200px;
+  }
 
 .footer-logo {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
   padding-bottom: 20px;
+  
+
 }
 
 .footer-logo a {
