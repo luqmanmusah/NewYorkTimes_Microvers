@@ -10,10 +10,15 @@ Additional description about the project and its features.
 This is a microverse Collaborative Project on HTML/CSS showing Lilian and Luqman knowledge of CSS and HTML
 
 
-# Built With
-HTML5, CSS3, GIT, and VSCODE
 
-# Getting Started
+## Built With
+- Major languages:    HTML, CSS3
+- Frameworks:         Git, HTML5 Semantics, CSS Grid and Flexbox
+- Technologies used:  HTML5 CSS
+
+
+## Getting Started
+
 
 To get a local copy up and running follow these simple example steps.
 
@@ -24,39 +29,47 @@ To get a local copy up and running follow these simple example steps.
 5. Push your branch up to your forked repository 
 6. Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-# Prerequisites 
+
+
+### Prerequisites 
 VSCode or any Code Editor, Github profile and Git.
 
-# Authors
+## Authors
 
-## Author1
+👤 **Author1**
+
 
 GitHub: https://github.com/ifnotlily
 Twitter: https://twitter.com/ifnotlily
 LinkedIn:https://www.linkedin.com/in/lilian-francis
 
-## Author2
+
+👤 **Author2**
+
 
 GitHub: https://github.com/luqmanmusah
 Twitter: @luqboi
 LinkedIn:linkedin.com/luqmanmusah
 
-#  Contributing Contributions, issues and feature requests are welcome!
 
-Feel free to check the issues page.
+## 🤝 Contributing
 
-Show your support Give a star if you like this project!
-
-# License This project is a collaboration project of microverse students. All rights are reserved for Lilian Francis and Luqman Musah.
-
-### Realeases
-No Releases Published
-
-### Packages
-No Packages Published
+Contributions, issues, and feature requests are welcome!
 
 
+Feel free to check the [issues page](issues/).
 
 
+## Show your support
 
+Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License 
+
+This project is a collaboration project of microverse students. All rights are reserved for Lilian Francis and Luqman Musah.
