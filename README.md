@@ -34,15 +34,18 @@ VSCode or any Code Editor, Github profile and Git.
 
 👤 **Author1**
 
-GitHub: https://github.com/ifnotlily
-Twitter: https://twitter.com/ifnotlily
-LinkedIn:https://www.linkedin.com/in/lilian-francis
+* GitHub: [@ifnotlily](https://github.com/ifnotlily/)
+* Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
+* LinkedIn:[@lilian-francis](https://www.linkedin.com/in/lilian-francis)
+* Email:[@Lilian Francis](ifnotlily@yahoo.com)
+
 
 👤 **Author2**
 
-GitHub: https://github.com/luqmanmusah
-Twitter: @luqboi
-LinkedIn:linkedin.com/luqmanmusah
+* GitHub:[@luqmanmusah](https://github.com/luqmanmusah)
+* Twitter: [@luqboi](https://twitter.com/luqboi)
+* LinkedIn:[@luqmanmusah](https://www.linkedin.com/luqmanmusah)
+* Email:[Musah Luqman](chatwitlily@gmail.com)
 
 ## 🤝 Contributing
 
