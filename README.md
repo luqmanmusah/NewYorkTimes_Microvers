@@ -10,6 +10,7 @@ Lilian and Luqman First Microverse Project(New York Times Replica: Positioning a
 This is a microverse Collaborative Project on HTML/CSS showing Lilian and Luqman knowledge of CSS and HTML
 
 
+
 ## Built With
 - HTML
 - CSS3
@@ -18,9 +19,12 @@ This is a microverse Collaborative Project on HTML/CSS showing Lilian and Luqman
 ## Live Link
 Here is the live [link](https://luqmanmusah.github.io/NewYorkTimes_Microvers/)
 
+
 ## Getting Started
 
+
 ### Setup
+
 
 To get a local copy up and running follow these simple example steps.
 
@@ -30,6 +34,8 @@ To get a local copy up and running follow these simple example steps.
 - Run git checkout -b your-braanch-name Make your contributions 
 - Push your branch up to your forked repository 
 - Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+
 
 ### Prerequisites 
 - VSCode
@@ -46,18 +52,26 @@ To get a local copy up and running follow these simple example steps.
 - Email:[@Lilian Francis](ifnotlily@yahoo.com)
 
 
+
+
 👤 **Author2**
+
+
 
 - GitHub:[@luqmanmusah](https://github.com/luqmanmusah)
 - Twitter: [@luqboi](https://twitter.com/luqboi)
 - LinkedIn:[@luqmanmusah](https://www.linkedin.com/luqmanmusah)
 - Email:[Musah Luqman](musahluqman@gmail.com)
 
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+
 Feel free to check the [issues page](issues/).
+
 
 ## Show your support
 
