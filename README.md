@@ -42,7 +42,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
-://www.linkedin.com/in/lilian-francis
 
 - GitHub: [@ifnotlily](https://github.com/ifnotlily/)
 - Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
