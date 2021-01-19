@@ -6,14 +6,10 @@
   margin-left: auto;
   margin-top: 100px;
 }
-body {
-  padding: 65px;
-  
-}
 
-header{
+header {
   position: relative;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 70px solid white;
   background-color: white;
 }
 
@@ -23,7 +19,7 @@ header{
   justify-content: flex-end;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 999;
   width: 100%;
   height: 70px;
   background-color: white;
@@ -51,14 +47,14 @@ header{
 
 .main_menu2 a {
   font-size: 14.25px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    -webkit-letter-spacing: 0.7px;
-    -moz-letter-spacing: 0.7px;
-    -ms-letter-spacing: 0.7px;
-    letter-spacing: 0.7px;
-    line-height: 19px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.7px;
+  -moz-letter-spacing: 0.7px;
+  -ms-letter-spacing: 0.7px;
+  letter-spacing: 0.7px;
+  line-height: 19px;
 }
 
 .img-menu {
@@ -77,12 +73,11 @@ header{
   justify-content: space-evenly;
 }
 .section-title {
-    display: block;
-    position: absolute;
-    left: 105px;
-    line-height: 19px;
-    top: 10px;
-  
+  display: block;
+  position: absolute;
+  left: 105px;
+  line-height: 19px;
+  top: 10px;
 }
 img {
   top: 50%;
@@ -90,7 +85,7 @@ img {
   size: 50;
 }
 
-.logo{
+.logo {
   position: absolute;
   top: 20px;
 }
@@ -100,8 +95,6 @@ img {
   display: block;
   width: 25%;
   text-size-adjust: 100%;
-  /* position: flex;
-  justify-content: space-evenly; */
 }
 .sub-buttons {
   display: flex;
@@ -109,18 +102,16 @@ img {
   position: absolute;
   right: 10px;
   top: 4px;
-  
 }
 .title_style {
-    width: 100%;
-    margin: auto;
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    max-width: 700px;
-  
+  width: 100%;
+  margin: auto;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  max-width: 700px;
 }
 
 .cambridge {
@@ -130,6 +121,60 @@ img {
   margin: 0 auto;
   line-height: 2;
 }
+.editors-pick {
+  width: 100%;
+}
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+.editor1 {
+  width: 23%;
+  float: left;
+  margin: 10px;
+  height: 100%;
+}
+.editor2 {
+  width: 40%;
+  float: left;
+  margin: 10px;
+  height: 100%;
+}
+.editor2 p {
+  line-height: 2;
+}
+.editor3 {
+  float: right;
+  height: 100%;
+  width: 25%;
+  right: 0;
+  margin: 10px;
+  top: 0;
+}
+.editor-link {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.editor-link h4 {
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 10px;
+  color: black;
+}
+.editor-link img {
+  width: 85px;
+}
+.editor-link a {
+  display: contents;
+  align-items: center;
+}
+.editor3 aside {
+  align-items: center;
+  margin-left: 30px;
+}
+
 .all-buttons {
   background-color: blue;
 }
@@ -145,11 +190,11 @@ p {
   grid-template-columns: auto auto auto auto;
   padding: 10px;
 }
-.grid-container1{
+.grid-container1 {
   width: 70%;
 }
 
-.aside{
+.aside {
   position: absolute;
   max-width: 25%;
   right: 0;
@@ -158,26 +203,26 @@ p {
   margin-left: 30px;
 }
 
-.link-to{
+.link-to {
   text-decoration: none;
 }
 
-.btn-subscription{
+.btn-subscription {
   border-radius: 3px;
-    cursor: pointer;
-    transition: all 0.6s ease 0s;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-color: rgb(86, 123, 149);
-    border: 1px solid rgb(50, 104, 145);
-    color: rgb(255, 255, 255);
-    font-size: 11px;
-    line-height: 11px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    margin: 15px;
-    padding: 11px 12px 8px;
-    text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.6s ease 0s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 15px;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
 }
 
 .grid-container2 {
@@ -186,7 +231,6 @@ p {
   padding: 10px;
   max-width: 100%;
   grid-template-columns: 30% 30% 30%;
-
 }
 figcaption {
   font-size: 12px;
@@ -194,20 +238,18 @@ figcaption {
 }
 
 .grid-container3 {
-  /* display: grid;
-  grid-template-columns: 75% 25%;  */
   width: 100%;
   margin: auto;
   position: relative;
   margin-bottom: 50px;
-} 
+}
 
 .grid-item {
   padding: 20px;
   text-align: left;
 }
 
-.grid-item2{
+.grid-item2 {
   margin: 10px;
 }
 
@@ -406,19 +448,15 @@ footer {
   top: 34rem;
 }
 
-/* .logo {
-  width: 200px; */
-  .logos {
-    width: 200px;
-  }
+.logos {
+  width: 200px;
+}
 
 .footer-logo {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
   padding-bottom: 20px;
-  
-
 }
 
 .footer-logo a {
