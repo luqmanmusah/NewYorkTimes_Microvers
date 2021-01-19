@@ -97,8 +97,6 @@ img {
   display: block;
   width: 25%;
   text-size-adjust: 100%;
-  /* position: flex;
-  justify-content: space-evenly; */
 }
 .sub-buttons {
   display: flex;
@@ -245,8 +243,6 @@ figcaption {
 }
 
 .grid-container3 {
-  /* display: grid;
-  grid-template-columns: 75% 25%;  */
   width: 100%;
   margin: auto;
   position: relative;
@@ -457,8 +453,6 @@ footer {
   top: 34rem;
 }
 
-/* .logo {
-  width: 200px; */
   .logos {
     width: 200px;
   }
