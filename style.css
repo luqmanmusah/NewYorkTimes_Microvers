@@ -6,14 +6,11 @@
   margin-left: auto;
   margin-top: 100px;
 }
-body {
-  padding: 65px;
-  
-}
+
 
 header{
   position: relative;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 70px solid white;
   background-color: white;
 }
 
@@ -23,7 +20,7 @@ header{
   justify-content: flex-end;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 999;
   width: 100%;
   height: 70px;
   background-color: white;
@@ -130,6 +127,60 @@ img {
   margin: 0 auto;
   line-height: 2;
 }
+.editors-pick {
+  width: 100%;
+}
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+.editor1{
+  width: 23%;
+  float: left;
+  margin: 10px;
+  height: 100%;
+}
+.editor2{
+  width: 40%;
+  float: left;
+  margin: 10px;
+  height: 100%;
+}
+.editor2 p {
+  line-height: 2;
+}
+.editor3{
+  float: right;
+  height: 100%;
+  width: 25%;
+  right: 0;
+  margin: 10px;
+  top: 0;
+}
+.editor-link{
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.editor-link h4 {
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 10px;
+  color: black;
+}
+.editor-link img {
+  width: 85px;
+}
+.editor-link a {
+  display: contents;
+  align-items: center;
+}
+.editor3 aside {
+  align-items: center;
+  margin-left: 30px;
+}
+
 .all-buttons {
   background-color: blue;
 }
